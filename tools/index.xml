@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tools on Soho</title>
+    <link>https://zhufx.github.io/tools/</link>
+    <description>Recent content in Tools on Soho</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Tue, 24 Mar 2020 22:09:37 +0800</lastBuildDate>
+    
+	<atom:link href="https://zhufx.github.io/tools/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hugo教程</title>
+      <link>https://zhufx.github.io/tools/hugo%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Tue, 24 Mar 2020 22:09:37 +0800</pubDate>
+      
+      <guid>https://zhufx.github.io/tools/hugo%E6%95%99%E7%A8%8B/</guid>
+      <description>Hugo命令 最近想要写一些技术博客，看了一些教程，最后选择hugo搭建静态的博客网站。
+选择hugo有几个原因吧：
+ 简单易搭建 好看的主题 速度快  经过一些踩坑和试错一次后，成功搭建了自己的静态网站，把一些常用的命令记录下来吧。
+hugo命令 hugo new post/new.</description>
+    </item>
+    
+  </channel>
+</rss>

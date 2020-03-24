@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="generator" content="Hugo 0.63.2" />
 
-  <title>Tags &middot; Soho</title>
+  <title>Hugo教程 &middot; Soho</title>
 
   <meta name="description" content="" />
 
@@ -17,9 +17,12 @@
 
   
   <meta property="og:type" content="blog"/>
-  <meta property="og:site_name" content="Soho"/><meta property="og:title" content="Tags"/>
-  <meta property="og:url" content="https://zhufx.github.io/tags/"/>
-  <meta property="og:description" content=""/>
+  <meta property="og:site_name" content="Soho"/><meta property="og:title" content="Hugo教程"/>
+  <meta property="og:url" content="https://zhufx.github.io/tools/hugo%E6%95%99%E7%A8%8B/"/>
+  <meta property="og:description" content="Hugo命令 最近想要写一些技术博客，看了一些教程，最后选择hugo搭建静态的博客网站。
+选择hugo有几个原因吧：
+ 简单易搭建 好看的主题 速度快  经过一些踩坑和试错一次后，成功搭建了自己的静态网站，把一些常用的命令记录下来吧。
+hugo命令 hugo new post/new."/>
 
   <script type="application/ld+json">
   {
@@ -68,7 +71,6 @@
   <link rel="shortcut icon" href="/favicon.png">
 
   
-  <link href="https://zhufx.github.io/tags/index.xml" rel="alternate" type="application/rss+xml" title="Soho" />
   </head>
 <body>
   <aside class="sidebar">
@@ -124,10 +126,42 @@
 
 
   <main class="content container">
-  <ul class="posts">
-  <h1>Tags</h1>
-  
-</ul>
+  <div class="post">
+  <h1>Hugo教程</h1>
+
+  <div class="post-date">
+    <time datetime="2020-03-24T22:09:37&#43;0800">Mar 24, 2020</time> · 1 min read
+  </div>
+
+  <h1 id="hugo命令">Hugo命令</h1>
+<p>最近想要写一些技术博客，看了一些教程，最后选择hugo搭建静态的博客网站。</p>
+<p>选择hugo有几个原因吧：</p>
+<ol>
+<li>简单易搭建</li>
+<li>好看的主题</li>
+<li>速度快</li>
+</ol>
+<p>经过一些踩坑和试错一次后，成功搭建了自己的静态网站，把一些常用的命令记录下来吧。</p>
+<h3 id="hugo命令-1">hugo命令</h3>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo new post/new.md
+</code></pre></div><p>这条命令用来新建自己的文章，可以自动生成一个markdown文件，并且自动生成文章</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo server -D -t soho
+</code></pre></div><p>这条命令用来编译自己的本地静态文件，-D代表编译草稿状态下的稿件，-t用来选择主题，默认地址是loacalhost:1313</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">hugo --baseUrl https://zhufx.github.io/ -D -t soho
+</code></pre></div><p>这条命令是用来编译本地静态文件到public文件夹下，通过提交public文件夹下的静态网页内容到github便可以更新到自己的博客内容，提交命令如下：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">git add -A
+git commit -m <span style="color:#e6db74">&#34;message&#34;</span>
+git push -u origin maste
+</code></pre></div><p>这里只是做一个简单的记录，其实不够详细，后面有时间再探究下hugo的高阶用法吧。</p>
+<h3 id="遇到的坑">遇到的坑</h3>
+<p>遇到的一个主要问题是把public目录下的静态文件提交到github后css加载不了，主要问题是github现在已经不能访问http的资源了。自2016年6月15日起，使用Github Pages默认域名搭建个人站点，已被强制要求HTTPS访问，即使用HTTP访问，也会被重定向到HTTPS。</p>
+<p>所以需要将baseUrl改成https即可，当然也可以在config.toml中设置。</p>
+<p>最后贴一张自己博客的图吧</p>
+<p>![image-20200324222833549](/Users/zhufangxiang/Library/Application Support/typora-user-images/image-20200324222833549.png)</p>
+
+</div>
+
+
   </main>
 
   <footer>

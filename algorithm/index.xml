@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Algorithms on Soho</title>
+    <link>https://zhufx.github.io/algorithm/</link>
+    <description>Recent content in Algorithms on Soho</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Tue, 24 Mar 2020 22:06:54 +0800</lastBuildDate>
+    
+	<atom:link href="https://zhufx.github.io/algorithm/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>最长回文子串</title>
+      <link>https://zhufx.github.io/algorithm/leetcode/%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2/</link>
+      <pubDate>Tue, 24 Mar 2020 22:06:54 +0800</pubDate>
+      
+      <guid>https://zhufx.github.io/algorithm/leetcode/%E6%9C%80%E9%95%BF%E5%9B%9E%E6%96%87%E5%AD%90%E4%B8%B2/</guid>
+      <description>最长回文子串 </description>
+    </item>
+    
+  </channel>
+</rss>
