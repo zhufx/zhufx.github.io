@@ -2,13 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Soho</title>
-    <link>http://localhost:1313/</link>
+    <link>https://zhufx.github.io/</link>
     <description>Recent content on Soho</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
+    <lastBuildDate>Tue, 17 Mar 2020 12:43:48 +0800</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://zhufx.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>123</title>
+      <link>https://zhufx.github.io/posts/123/</link>
+      <pubDate>Tue, 17 Mar 2020 12:43:48 +0800</pubDate>
+      
+      <guid>https://zhufx.github.io/posts/123/</guid>
+      <description>#456</description>
+    </item>
+    
+    <item>
+      <title>123</title>
+      <link>https://zhufx.github.io/post/123/</link>
+      <pubDate>Tue, 17 Mar 2020 12:42:45 +0800</pubDate>
+      
+      <guid>https://zhufx.github.io/post/123/</guid>
+      <description>#123</description>
+    </item>
+    
+    <item>
+      <title>Hello</title>
+      <link>https://zhufx.github.io/post/hello/</link>
+      <pubDate>Tue, 17 Mar 2020 12:40:53 +0800</pubDate>
+      
+      <guid>https://zhufx.github.io/post/hello/</guid>
+      <description>#Hello world</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://zhufx.github.io/about/</link>
+      <pubDate>Tue, 17 Mar 2020 10:55:30 +0800</pubDate>
+      
+      <guid>https://zhufx.github.io/about/</guid>
+      <description>朱方祥 1993年
+2015年本科毕业于中国矿业大学
+2018年研究生毕业于中国科学技术大学
+现入职招银网络科技Java开发工程师</description>
+    </item>
     
   </channel>
 </rss>
